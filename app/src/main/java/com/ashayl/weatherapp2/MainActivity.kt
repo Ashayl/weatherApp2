@@ -12,10 +12,10 @@ class MainActivity : AppCompatActivity() {
 
         val buttonMain: button = findViewById<>(R.id.buttonMain)
         buttonMain.setOnClickListener {
-            val intent=Intent(this, MainScreenActivity:: class.java)
+            val intent=Intent(this, myapplication:: class.java)
             startActivity(intent)
         }
-        val buttonExit: button = findViewById<>(R.Id.buttonExit
+        val buttonExit: button = findViewById<>(R.id.buttonExit)
             buttonExit.setOnClickListener{
 
                 exitProcess(0)
